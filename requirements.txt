@@ -10,7 +10,7 @@ jupyterlab-geojson
 jupyterlite
 plotly
 bokeh
-panel
 pandas
+bamboolib
 requests
 pyodide-http
