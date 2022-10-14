@@ -1,6 +1,6 @@
 # JupyterLite with api proxy
 
-This project is a jupyterlite distro designed to be used with an api proxy for convenient session setup and cached querying of third party APIs.
+This project is a jupyterlite distro designed to be used with an api proxy for convenient session setup and cached querying of third party APIs. See [fastapi-jupyterlite](https://github.com/wagov/fastapi-jupyterlite) for the supporting API server that allows for querying apis cross domain with additional security.
 
 ## Deploy your JupyterLite website on GitHub Pages
 
