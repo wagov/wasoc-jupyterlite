@@ -2,5 +2,8 @@
   "@jupyterlab/apputils-extension:themes": {
     "theme": "JupyterLab Dark",
     "theme-scrollbars": true
+  },
+  "@jupyterlab/github:drive": {
+    "defaultRepo": "wagov/wasoc-notebook"
   }
 }

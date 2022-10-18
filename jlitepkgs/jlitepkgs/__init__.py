@@ -17,5 +17,5 @@ def kql2df(kql, workspace: str = None, timespan="P1D"):
     if workspace:
         path = "/api/v1/simpleQuery"
         params["name"] = workspace
-    response = http_call(path, params=params)
+    response = request(url=f"{js.origin}{path}", method="GET", params=params)
     return pandas.DataFrame(response.json())
