@@ -27,7 +27,7 @@ jobs:
         run: |
           cp README.md content
           python -m poetry run jupyter lite build --contents content --output-dir dist
-          cp -v ./jlitepkgs/dist/jlitepkgs-*-any.whl ./dist/jlitepkgs-any.whl
+          cp -v ./jlitepkgs/dist/*.whl ./dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
