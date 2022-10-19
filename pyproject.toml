@@ -20,7 +20,6 @@ plotly = "^5.10.0"
 bokeh = "^2.4.3"
 bamboolib = "^1.30.18"
 pyodide-http = "^0.1.0"
-jupyterlab-github = "^3.0.1"
 
 
 [build-system]
