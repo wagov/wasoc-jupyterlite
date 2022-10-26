@@ -10,12 +10,9 @@ def http_call(path: str, method: str = "GET", **kwargs):
     return request(url=f"{js.origin}/proxy/{path}", method=method, **kwargs)
 
 
-def kql2df(kql, workspace: str = None, timespan="P1D"):
+def kql2df(kql, timespan="P1D"):
     # Assumes https://github.com/wagov/siem-query-utils/blob/main/siem_query_utils/api.py mounted at /api/v1
-    params = {"query": kql, "timespan": timespan}
-    path = "/api/v1/globalQuery"
-    if workspace:
-        path = "/api/v1/simpleQuery"
-        params["name"] = workspace
-    response = request(url=f"{js.origin}{path}", method="GET", params=params)
+    params = {"timespan": timespan}
+    path = "/api/v2/query"
+    response = request(url=f"{js.origin}{path}", method="POST", params=params, data=kql)
     return pandas.DataFrame(response.json())
