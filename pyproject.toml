@@ -19,7 +19,7 @@ jupyterlite = {extras = ["all"], version = "^0.1.0b14"}
 plotly = "^5.10.0"
 bokeh = "^2.4.3"
 bamboolib = "^1.30.18"
-pyodide-http = "^0.1.0"
+pyodide-http = "^0.1.1"
 poetryup = "^0.12.3"
 
 
