@@ -1148,7 +1148,7 @@ testing = ["coverage", "nose"]
 
 [[package]]
 name = "plotly"
-version = "5.10.0"
+version = "5.11.0"
 description = "An open-source, interactive data visualization library for Python"
 category = "main"
 optional = false
@@ -1724,7 +1724,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "7f2bac60167a87c63bc03aa34c364dc10f1050be842e4e146d99bf6392de6210"
+content-hash = "2913eff55280d4c977f5e9ca3a4757063afe13f333e450c288db375beb5dd8e0"
 
 [metadata.files]
 anyio = [
@@ -2480,8 +2480,8 @@ pkginfo = [
     {file = "pkginfo-1.8.3.tar.gz", hash = "sha256:a84da4318dd86f870a9447a8c98340aa06216bfc6f2b7bdc4b8766984ae1867c"},
 ]
 plotly = [
-    {file = "plotly-5.10.0-py2.py3-none-any.whl", hash = "sha256:989b13825cc974390aa0169479485d9257d37848a47bc63957251f8e1a7046ba"},
-    {file = "plotly-5.10.0.tar.gz", hash = "sha256:4d36d9859b7a153b273562deeed8c292587a472eb1fd57cd4158ec89d9defadb"},
+    {file = "plotly-5.11.0-py2.py3-none-any.whl", hash = "sha256:52fd74b08aa4fd5a55b9d3034a30dbb746e572d7ed84897422f927fdf687ea5f"},
+    {file = "plotly-5.11.0.tar.gz", hash = "sha256:4efef479c2ec1d86dcdac8405b6ca70ca65649a77408e39a7e84a1ea2db6c787"},
 ]
 poetryup = [
     {file = "poetryup-0.12.3-py3-none-any.whl", hash = "sha256:fb8349a18ac6498e65654129a421248e9577f157e89bae592cf7e95dfddd1ba9"},
